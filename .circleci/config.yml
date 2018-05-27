@@ -16,6 +16,6 @@ jobs:
           command: |
             docker build -f Dockerfile \
               --build-arg PHP_VERSION=7.2 \
-              -t solomonjames/php:7.2 .
-            docker push solomonjames/php:7.2
+              -t iamksolo/php:7.2 .
+            docker push iamksolo/php:7.2
             
